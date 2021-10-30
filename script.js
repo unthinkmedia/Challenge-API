@@ -23,8 +23,10 @@ sendZipBtn.addEventListener("click", event => {
 let getWeatherByZip = (zipCode) => {  
     const url = `http://api.openweathermap.org/data/2.5/weather?zip=${zipCode},us&appid=${apiKey}`;
 
-    //ADD YOUR CODE HERE
+    //ADD YOUR FETCH CODE HERE TO "GET" DATA FROM THE API
+    //https://www.freecodecamp.org/news/how-to-make-api-calls-with-fetch/
     
+
 };
 
 // converting Kelvin to Fahrenheit
